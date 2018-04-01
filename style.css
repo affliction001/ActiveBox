@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:focus {
+	outline: none;
+}
+
+/* Styles for header and navigation menu */
+
+.header {
+	color: white;
+	background: #2a2d48 url(https://image.prntscr.com/image/tK5H_iIfTwS40krBs4iTQQ.jpg) no-repeat center top / cover;
+}
+
+.container_header {
+	max-width: 1168px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 245px 110px 157px;
+}
+
+.navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	background: rgba(49, 54, 79, 0.6);
+}
+
+.container_navigation {
+	max-width: 1168px;
+	margin: 0 auto;
+	text-align: right;
+	border-bottom: 1px solid #777;
+}
+
+.activebox {
+	float: left;
+	padding-top: 30px;
+	font-size: 33px;
+}
+
+.activebox span {
+	font-weight: 900;
+	font-size: 34px;
+	opacity: 0.3;
+}
+
+.menu {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 43px 0;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 55px;
+}
+
+.menu li a:hover {
+	color: #e84545;
+}
+
+.menu li a:focus {
+	color: #e84545;
+	outline: none;
+}
+
+.menu li a:active {
+	color: red;
+	text-shadow: 0 0 2px red;
+}
+
+.header_title {
+	font-family: "Open Sans", sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+	line-height: 71px;
+	margin: 0;
+	padding: 0;
+}
+
+.header_text {
+	font-size: 22px;
+	padding: 23px 0 72px;
+	line-height: 33px;
+	margin: 0;
+}
+
+.header_button {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 16px 48px 16px 52px;
+	background: #e84545;
+	border-radius: 4px;
+}
+
+.header_button:hover {
+	background: #d02e2e;
+	cursor: pointer;
+}
+
+.header_button:active {
+	background: #b81818;
+}
+
+/* Styles for options section */
+
+.inline_block {
+	display: inline-block;
+	width: 33.33%;
+	margin: 0;
+	padding: 35px 40px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.options_container {
+	max-width: 1168px;
+	margin: 0 auto;
+	padding: 86px 0;
+	font-size: 0;
+}
+
+.options_header {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 33px 0 18px;
+}
+
+.options_text {
+	font-size: 14px;
+	line-height: 21px;
+	color: #6c7279;
+	margin: 0;
+}
+
+.options-icon {
+	display: inline-block;
+  height: 60px;
+  background: url(https://image.prntscr.com/image/AdIdM7aFSYiUCqi1sK8xOQ.png) no-repeat top left / cover;
+}
+
+.icon_link1 {
+  width: 60px;
+}
+
+.icon_link2 {
+  width: 73px;
+  background-position: -74px center;
+}
+
+.icon_link3 {
+  width: 41px;
+  background-position: -160px center;
+}
+
+.icon_link4 {
+  width: 56px;
+  background-position: -212px center;
+}
+
+.icon_link5 {
+  width: 72px;
+  background-position: -279px center;
+}
+
+.icon_link6 {
+  width: 79px;
+  background-position: right center;
+}
+
+.icon_link:focus {
+	box-shadow: 0 0 10px 2px #ff6f6f;
+}
+
+.icon_link:hover {
+	box-shadow: 0 0 10px 2px #ff6f6f;
+}
+
+.icon_link:active {
+	box-shadow: 0 0 10px 3px red;
+}
+
+/* Styles for works section */
+
+.works {
+	font-size: 0;
+}
+
+.works_wrapper {
+	display: inline-block;
+	width: 25%;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.works_wrapper:nth-child(4), .works_wrapper:nth-child(8) {
+	border-right: none;
+}
+
+.works_link {
+	display: block;
+}
+
+.work1 {
+	background: url(https://image.prntscr.com/image/U0xjfXT-RP6bdulG-wfmEA.jpg) no-repeat center center / cover;
+}
+
+.work2 {
+	background: url(https://image.prntscr.com/image/NIv0ovtcRsekNejTMgMGbA.jpg) no-repeat center center / cover;
+}
+
+.work3 {
+	background: url(https://image.prntscr.com/image/JJ_8AUJwQP6bX74zOqgYKQ.jpg) no-repeat center center / cover;
+}
+
+.work4 {
+	background: url(https://image.prntscr.com/image/hhwRR4dLRxSaZLkphVyx9A.jpg) no-repeat center center / cover;
+}
+
+.work5 {
+	background: url(https://image.prntscr.com/image/__idN_ECRRWYgSA4wXm6Tw.jpg) no-repeat center center / cover;
+}
+
+.work6 {
+	background: url(https://image.prntscr.com/image/Cpb6L5zuR7CsBgK33tsMeA.jpg) no-repeat center center / cover;
+}
+
+.work7 {
+	background: url(https://image.prntscr.com/image/EERt9UkgT0qx6TTw_WbMeA.jpg) no-repeat center center / cover;
+}
+
+.work8 {
+	background: url(https://image.prntscr.com/image/kXmCeG_9SfCe_xaznSirVQ.jpg) no-repeat center center / cover;
+}
+
+.works_header {
+	font-size: 14px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+
+.works_container {
+	padding: 155px 0 156px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.works_container:hover {
+	background: rgba(200,0,0,0.7);
+	opacity: 1;
+}
+
+.works_link:active {
+	color: red;
+}
+
+/* Styles for footer */
+
+.footer {
+	text-align: center;
+	background: #3e4063;
+}
+
+.footer_information {
+	max-width: 1168px;
+	margin: 0 auto;
+	padding: 66px 0 82px;
+	font-size: 0;
+
+}
+
+.footer_information > div {
+	display: inline-block;
+	font-size: 14px;
+	color: #999ca0;
+	line-height: 25px;
+}
+
+.footer_information h2 {
+	color: white;
+	font-size: 14px;
+}
+
+.footer_information p {
+	margin: 0;
+}
+
+.share_text_link {
+	margin: 2px 2px;
+	display: inline-block;
+  height: 44px;
+  width: 44px;
+  background: url(https://image.prntscr.com/image/Uwk5I-0cR0anDA8tHQDxKA.png) no-repeat left center / cover;
+}
+
+.share_text_link:nth-child(2) {
+  background-position: -60px center;
+}
+
+.share_text_link:nth-child(3) {
+  background-position: right center;
+}
+
+.share_text_link:hover {
+	transform: scale(1.2);
+}
+
+.share_text_link:focus {
+	transform: scale(1.2);
+}
+
+.share_text_link:active {
+	transform: scale(1.4);
+}
+
+.location, .share, .about_activebox {
+	vertical-align: top;
+}
+
+.location {
+	width: 40%;
+	padding: 0 80px 0 0;
+}
+
+.location_text, .about_activebox_text, .share_text {
+	line-height: 22.5px;
+	padding-top: 10px;
+}
+
+.about_activebox {
+	width: 40%;
+	padding: 0 20px 0 100px;
+}
+
+.share {
+	width: 20%;
+}
+
+.footer_author {
+	background: #353754;
+	color: #808080;
+	font-size: 14px;
+	padding: 25px 0 25px;
+}
+
+.footer_author_text {
+	margin: 0;
+	padding: 3px;
+}
+
+.heart {
+	color: red;
+}
+
+.footer_white_text {
+	color: white;
+	padding-left: 3px;
+}
